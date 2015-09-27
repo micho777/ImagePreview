@@ -1,0 +1,253 @@
+﻿/*region header*/
+.user-name {
+    color: white;
+}
+
+.header-bar {
+    background-color:#fc4348;
+
+}
+
+.user-img {
+height:30px;
+width:30px;
+}
+
+.navigation-row {
+    padding-top: 40px;
+}
+
+.nav.navbar-nav .active {
+    text-decoration: underline;
+    color: white;
+    text-decoration-color: white;
+}
+
+.nav.navbar-nav li a {
+    color: white;
+    font-weight: bold;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: #fc4348;
+    text-decoration: underline;
+}
+
+.jumbotron, .navbar {
+    background-color: #FC4348;
+    border-color: #FC4348;
+}
+
+.jumbotron {
+    min-height: 300px;
+    padding-bottom: 0;
+    padding-top:0;
+}
+
+.ad-img {
+width:100%;
+height:100%;
+}
+
+
+.row.logo {
+padding-bottom:50px;
+padding-top:30px;
+}
+
+.site-logo {
+width:100px;
+height:50px;
+}
+
+.row.ad {
+padding-bottom:50px;
+
+}
+/*end region header*/
+
+
+body {
+    background-color: #EEF3FA !important;
+    overflow-x:hidden;
+}
+
+
+.float-right {
+    float: right;
+}
+
+.lead {
+overflow: hidden;
+}
+
+.footer {
+padding-top:20px;
+}
+
+/* start of modification for 5 columns */
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.col-xs-15 {
+    width: 19.3%;
+    float: left;
+}
+
+.col-md-12 {
+    width: 99.5%;
+}
+
+@media (max-width: 768px) {
+    .col-xs-15 {
+        width: 30%;
+        float: left;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 18%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 18%;
+        float: left;
+    }
+}
+
+/* end of modification for 5 columns */
+
+
+/*region card*/
+.hear-img {
+height:15px;
+width:15px;
+}
+.card-container {
+    background-color: grey;
+    height: 90px;
+    margin-left: 20%;
+    margin-top: 80%;
+    position: absolute;
+    width: 170px;
+}
+
+.content-body > .row {
+    margin-bottom: 100px;
+}
+
+.card {
+    background-color: #fff;
+    margin-bottom:10px;
+}
+
+
+.custom-title {
+    font-weight: bold;
+}
+
+.card-image {
+    width: 220px;
+    height:172px;
+}
+
+.col-xs-12 {
+    padding-top: 15px;
+}
+
+.col-xs-12 div:first-child {
+    margin-left: 0px;
+}
+
+.col-xs-12 div:last-child {
+    margin-right: 4px;
+    margin-left: 0px;
+}
+
+.card-content {
+    padding: 0 12px;
+}
+
+    .card-content h4 {
+        margin-bottom: 5px;
+    }
+
+    .card-content p, .light-font {
+        color: #CECECE;
+        font-size: 12px;
+        font-weight:600;
+    }
+
+/* end region card*/
+
+
+/*region font responsive*/
+@media screen and (max-width: 568px) {
+    h4 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        font-size: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width: 568px) {
+    .lead {
+        font-size: 0.8em;
+    }
+}
+
+/*end region font responsive*/
+
+
+/* responsive text queries */
+@media screen and (max-width: 992px) {
+  p,.btn,input,div,span,h4 {
+    font-size: 95%;
+  }
+  h1 {
+    font-size: 24px;  
+  }
+  h2 {
+    font-size: 22px;  
+  }
+  h3 {
+    font-size: 18px;  
+  }
+}
+
+@media screen and (max-width: 768px) {
+  p,.btn,input,div,span,h4 {
+    font-size: 90%;
+  }
+  h1 {
+    font-size: 20px;  
+  }
+  h2 {
+    font-size: 18px;  
+  }
+  h3 {
+    font-size: 16px;  
+  }
+}
+/*end responsive text queries */

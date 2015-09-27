@@ -77,9 +77,6 @@ body {
     float: right;
 }
 
-.lead {
-overflow: hidden;
-}
 
 .footer {
 padding-top:20px;
@@ -162,8 +159,8 @@ width:15px;
 }
 
 .card-image {
-    width: 220px;
-    height:172px;
+  height: 172px;
+    width: 100%;
 }
 
 .col-xs-12 {
@@ -194,31 +191,6 @@ width:15px;
     }
 
 /* end region card*/
-
-
-/*region font responsive*/
-@media screen and (max-width: 568px) {
-    h4 {
-        font-size: 60px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .lead {
-        font-size: 20px;
-    }
-
-    
-}
-
-@media screen and (max-width: 568px) {
-    .lead {
-        font-size: 0.8em;
-    }
-}
-
-/*end region font responsive*/
-
 
 /* responsive text queries */
 @media screen and (max-width: 992px) {
